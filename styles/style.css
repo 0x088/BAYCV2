@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply m-0 bg-black p-0 text-primary;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  @apply text-secondary;
+}
+
+.text-shadow-full {
+  text-shadow: -1px -1px #000000, -1px 0px #000000, -1px 1px #000000,
+    0px -1px #000000, 0px 0px #000000, 0px 1px #000000, 1px -1px #000000,
+    1px 0px #000000, 1px 1px #000000;
+}
+
+.text-shadow-full-red {
+  text-shadow: -1px -1px #dc2626, -1px 0px #dc2626, -1px 1px #dc2626,
+    0px -1px #dc2626, 0px 0px #dc2626, 0px 1px #dc2626, 1px -1px #dc2626,
+    1px 0px #dc2626, 1px 1px #dc2626;
+}
