@@ -10,7 +10,7 @@ type Props = {
 const Card: React.FC<Props> = ({ idx, img, url }) => {
   return (
     <a
-      href={url || `${info.openSeaPrefix}/${idx}`}
+      href={url || `${info.looksRarePrefix}/${idx}`}
       target="_blank"
       rel="noopener noreferrer"
     >

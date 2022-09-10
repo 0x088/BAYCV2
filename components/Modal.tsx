@@ -55,9 +55,6 @@ export const Modal: React.FC<Props> = ({ tokens, onClose }) => {
 
                 <div className="mt-4 flex justify-center gap-x-2">
                   <Button onClick={onClose}>Close</Button>
-                  {/* <Button className="bg-blue-500 text-white">
-                    Open OpenSea
-                  </Button> */}
                 </div>
               </Dialog.Panel>
             </Transition.Child>
