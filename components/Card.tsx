@@ -4,12 +4,13 @@ import { info } from "@/constants";
 type Props = {
   idx: number;
   img?: string;
+  url?: string;
 };
 
-const Card: React.FC<Props> = ({ idx, img }) => {
+const Card: React.FC<Props> = ({ idx, img, url }) => {
   return (
     <a
-      href={`${info.openSeaPrefix}/${idx}`}
+      href={url || `${info.openSeaPrefix}/${idx}`}
       target="_blank"
       rel="noopener noreferrer"
     >

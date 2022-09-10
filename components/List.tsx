@@ -10,24 +10,24 @@ const List = () => {
       <div className="relative">
         <div className="flex animate-trackLeft">
           {list1.map((el) => (
-            <Card key={el} idx={el} />
+            <Card key={el} idx={el} url="#" />
           ))}
         </div>
         <div className="absolute top-0 flex animate-trackLeft2">
           {list1.map((el) => (
-            <Card key={el + "-2"} idx={el} />
+            <Card key={el + "-2"} idx={el} url="#" />
           ))}
         </div>
       </div>
       <div className="relative">
         <div className="flex animate-trackRight">
           {list2.map((el) => (
-            <Card key={el} idx={el} />
+            <Card key={el} idx={el} url="#" />
           ))}
         </div>
         <div className="absolute top-0 flex animate-trackRight2">
           {list2.map((el) => (
-            <Card key={el + "-2"} idx={el} />
+            <Card key={el + "-2"} idx={el} url="#" />
           ))}
         </div>
       </div>

@@ -9,7 +9,7 @@ export const info = {
     "Bored Ape Yacht Club V2 (BAYCV2) is a collection of 10,000 Bored Ape NFTs—unique digital collectibles living on the Ethereum blockchain",
   link: "https://boredapeyachtclubv2.com",
   openSeaPrefix: `https://opensea.io/assets/ethereum/${contractAddress}`,
-  openSeaCollection: "https://opensea.io/collection/bored-ape-yacht-club-v2",
+  openSeaCollection: "https://opensea.io/collection/bored-ape-yacht-club-v2-v2",
   contract: isDev
     ? `https://goerli.etherscan.io/address/${contractAddress}#contracts`
     : `https://etherscan.io/address/${contractAddress}#contracts`,
